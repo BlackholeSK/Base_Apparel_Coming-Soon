@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base Apparel Coming Soon</title>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="images/logo.svg" alt="Base Apparel Logo" class="logo">
+        <picture>
+            <source media="(min-width: 768px)" srcset="images/hero-desktop.jpg">
+            <img src="images/hero-mobile.jpg" alt="Hero Image" class="hero">
+        </picture>
+        <div class="content">
+            <h1>We're coming soon</h1>
+            <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
+            <form id="email-form">
+                <input type="email" id="email" placeholder="Email Address" required>
+                <button type="submit">Notify Me</button>
+                <p id="error-message" class="error-message"></p>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
